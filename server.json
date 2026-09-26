@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/usgs-mrdata",
   "title": "Usgs Mrdata",
   "description": "USGS MRData MCP — the Mineral Resources Data System (MRDS)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/usgs-mrdata",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-usgs-mrdata",
