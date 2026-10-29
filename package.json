@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-usgs-mrdata",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "USGS MRData MCP — the Mineral Resources Data System (MRDS)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-usgs-mrdata": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "usgs-mrdata"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-usgs-mrdata.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/usgs-mrdata",
   "pipeworx": {
-    "sourceHash": "v1-2b61ca1d3e2561376b499ed15c0da0f0b710a1b54187a5f6785eefe73207f177",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "usgs-mrdata",
+    "gatewaySlug": "usgs-mrdata",
+    "sourceHash": "v1-41af7b5bcb474730dd322a8765127caf58d593cf1a5750c0cc7465b9dd2b7ad9",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
