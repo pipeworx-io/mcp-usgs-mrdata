@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-usgs-mrdata",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "USGS MRData MCP — the Mineral Resources Data System (MRDS)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "usgs-mrdata",
     "gatewaySlug": "usgs-mrdata",
-    "sourceHash": "v1-41af7b5bcb474730dd322a8765127caf58d593cf1a5750c0cc7465b9dd2b7ad9",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-9cc8d634ae84d940db445e964ffe43e94067cf42f4cbc1b24eefbbc6ca200b66",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
